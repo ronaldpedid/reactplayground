@@ -1,0 +1,27 @@
+.toggleBox{
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border-radius: 35%;
+  justify-content: center;
+  margin-top: 1rem;
+  ::after{
+    content: '';
+  }
+}
+
+.toggledOn, .toggledOff{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid green;
+  align-self: center;
+}  
+
+.toggledOn{
+  background-color: green;
+}
+
+.toggledOff{
+  background-color: red;
+}

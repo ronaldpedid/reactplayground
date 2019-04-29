@@ -1,0 +1,40 @@
+.cardContainer{
+  display: flex;
+  background-color: #fff;
+  width: 48vw;
+  height: 15rem;
+  margin: 1rem auto;
+  font-size: 1.8rem;
+ 
+  
+  .cardImage{
+    margin-right: 1rem;
+    box-shadow: 0 3px 3px 1px #222;
+    max-width: 20vw;
+    font-size: 1.8rem;
+
+    filter: grayscale(0);
+  }
+
+  .cardTitle{
+    font-size: 3rem;
+  }
+}
+
+.cardContainerG{
+  @extend .cardContainer;
+  .cardImageG{
+    @extend .cardImage;
+    filter: grayscale(100%);
+  }
+
+  .cardTitleG{
+    font-size: 3rem;
+  }
+}
+
+.cardRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
