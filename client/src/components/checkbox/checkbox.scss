@@ -1,0 +1,22 @@
+.checkbox{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 3rem;
+  width: 3rem;
+  border: 1px solid black;
+}
+
+.true{
+  @extend .checkbox;
+  background-color: green;
+  transition:  width 2s height 2s ease-in;
+  transition-duration: 2s;
+}
+
+.false{
+  @extend .checkbox;
+  background-color: transparent;
+  transition:  width 2s height 2s ease-in-out;
+  transition-duration: 2s;
+}

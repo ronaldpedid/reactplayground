@@ -4,6 +4,7 @@ import { Dice } from './components/dice/Dice';
 import { ColoredToggleSwitch } from './components/toggles/Toggle';
 import MurryCard from './components/cards/Card';
 import styles from './index.scss';
+import { Checkbox, RadioButton } from './components/checkbox/Checkbox';
 
 class App extends Component {
   render() {
@@ -33,7 +34,9 @@ class App extends Component {
           <MurryCard title={bill.title} desc={bill.desc} imgSrc={imgSrc3} alt={imgAlt} />
         </section>
         <section>
-
+          1. Hello World? <Checkbox name="one" />
+          2. Hello World? <Checkbox name="one" />
+          3. Hello World? <Checkbox name="one" />
         </section>
       </div>
     )
