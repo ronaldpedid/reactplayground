@@ -19,11 +19,10 @@ export default class MyCarousel extends Component {
       <div className={styles.carouselContainer} >
         <Carousel
           autoPlay
-          stopOnHover
           showIndicators={false}
           onClickThumb={this.isClicked}
           showThumbs={true}
-          width='100'
+          width='100%'
           dynamicHeight={false}
           showIndicators
         >

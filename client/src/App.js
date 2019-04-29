@@ -6,6 +6,8 @@ import MurryCard from './components/cards/Card';
 import styles from './index.scss';
 import { Checkbox, RadioButton } from './components/checkbox/Checkbox';
 import MyCarousel, { Carousel } from './components/carousel/Carousel';
+import { Counter } from './components/counter/Counter';
+import StarWarsApi from './api/StarWarsApi';
 
 class App extends Component {
   render() {
@@ -41,6 +43,12 @@ class App extends Component {
         </section>
         <section>
           <MyCarousel />
+        </section>
+        <section>
+          <Counter />
+        </section>
+        <section>
+          <StarWarsApi />
         </section>
       </div>
     )

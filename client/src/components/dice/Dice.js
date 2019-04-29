@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import styles from './dice.scss';
 export class Dice extends Component {
-  constructor(props, context) {
-    super(props, context);
+  constructor(props, ) {
+    super(props);
     this.state = {
       value: 1
     }
