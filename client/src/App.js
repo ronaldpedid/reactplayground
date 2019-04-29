@@ -5,6 +5,7 @@ import { ColoredToggleSwitch } from './components/toggles/Toggle';
 import MurryCard from './components/cards/Card';
 import styles from './index.scss';
 import { Checkbox, RadioButton } from './components/checkbox/Checkbox';
+import MyCarousel, { Carousel } from './components/carousel/Carousel';
 
 class App extends Component {
   render() {
@@ -37,6 +38,9 @@ class App extends Component {
           1. Hello World? <Checkbox name="one" />
           2. Hello World? <Checkbox name="one" />
           3. Hello World? <Checkbox name="one" />
+        </section>
+        <section>
+          <MyCarousel />
         </section>
       </div>
     )
